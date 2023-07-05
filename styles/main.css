@@ -1,0 +1,74 @@
+.frame {
+  margin: 20px auto auto;
+
+  width: 468px;
+  height: 334px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background: url(../png/frame.png) center/100% 100%;
+}
+
+.welcome {
+  width: 305px;
+}
+
+.back_animal {
+  width: 164px;
+}
+
+.back_animal.chosen {
+  background: url("../png/light.png") center/ 100% 100%;
+}
+
+.animals img {
+  max-height: 60%;
+  max-width: 100%;
+}
+
+.control {
+  gap: 30px;
+}
+
+.plus {
+  transform: scale(-1, 1);
+}
+
+.bet_amount {
+  width: 118px;
+  height: 39px;
+
+  border-radius: 10px;
+  background-color: blueviolet;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.link_play {
+  width: 119px;
+}
+
+.link_shop {
+  width: 100px;
+}
+
+.link img {
+  width: 100%;
+}
+
+.slot_link {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 85px;
+}
+
+.slot_link img {
+  width: 100%;
+}
